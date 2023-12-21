@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#283043;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock {
+  background-color:  #1a202e;
+  color: white;
+  width: 120px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(1, 0, 0, 1);
+
+}
+
+
+button {
+  background-color:  #1a202e;
+  color: white;
+  font-size: 12px;
+  padding: 10px 24px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 10px;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.clock h1 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.clock span {
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.clock-container {
+  /* background-color: #1e2533; */
+  padding: 25px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
